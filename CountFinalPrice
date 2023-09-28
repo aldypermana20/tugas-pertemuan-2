@@ -1,0 +1,12 @@
+class CountFinalPrice {
+    public static void main(String[] args) {
+        int totalPrice = 2000000;
+        double discount = 0.5; // 50%
+        double tax = 0.1; // 10%
+
+        // count final price aftes discount and tax%
+        double finalPrice = (1 - discount) * totalprice;
+        finalPrice += finalPrice * tax;
+        System.out.println("Final Price: " + finalPrice);
+    }
+}
