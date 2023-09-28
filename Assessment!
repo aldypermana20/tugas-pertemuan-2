@@ -1,0 +1,22 @@
+public class Dolan {
+    public static void main(String[] args) {
+
+        String nama = "aldyy";
+        int nim = 123456543;
+        int nilai_tugas = 99;
+        int nilai_uts = 98;
+        int nilai_uas = 95;
+        double persentase_tugas = nilai_tugas * 0.30; // 30% dari nilai tugas
+        double persentase_uts = nilai_uts * 0.30; // 30% dari nilai UTS
+        double persentase_uas = nilai_uas * 0.40; // 40% dari nilai UAS
+        double nilai_akhir = persentase_tugas + persentase_uts + persentase_uas;
+
+        System.out.println("===== Data Mahasiswa ====");
+        System.out.println("NAMA: " + nama);
+        System.out.println("Nim : " + nim);
+        System.out.println("NILAI TUGAS : " + nilai_tugas);
+        System.out.println("NILAI UTS : " + nilai_uts);
+        System.out.println("NILAI UAS : " + nilai_uas);
+        System.out.println("NILAI AKHIR : " + nilai_akhir);
+    }
+}
